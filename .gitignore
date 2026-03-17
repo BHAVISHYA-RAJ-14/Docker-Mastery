@@ -205,3 +205,50 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+#dockerignore
+# Logs
+*.log
+logs/
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables & secrets
+.env
+.env.*
+secrets/
+*.key
+*.pem
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Build outputs
+build/
+dist/
+out/
+*.tar
+*.gz
+
+# Docker-specific
+docker-compose.override.yml
+.docker/
+.dockerignore
+
+# Cache & temp files
+.cache/
+*.tmp
+*.swp
+*.swo
+
+# IDE & OS files
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
